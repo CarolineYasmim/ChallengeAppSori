@@ -1,4 +1,5 @@
-package com.seuprojeto.motivacional
+package com.example.challengeapp.Model
+
 
 data class SamplePhrases(
     val phrases: List<String> = listOf(

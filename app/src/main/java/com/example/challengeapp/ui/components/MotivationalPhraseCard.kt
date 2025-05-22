@@ -22,9 +22,10 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.challengeapp.Model.SamplePhrases
 import com.example.challengeapp.R
 import com.example.challengeapp.ui.theme.MainBlue
-import com.seuprojeto.motivacional.SamplePhrases
+
 
 @Composable
 fun MotivacionalPhraseCard(textComponent: String? = null) {
@@ -51,6 +52,11 @@ fun MotivacionalPhraseCard(textComponent: String? = null) {
             }
         }
     }
+}
+
+@Composable
+fun SamplePhrases() {
+    TODO("Not yet implemented")
 }
 
 @Preview(showBackground = true, showSystemUi = true)
