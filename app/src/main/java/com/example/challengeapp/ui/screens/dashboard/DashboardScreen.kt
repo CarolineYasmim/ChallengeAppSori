@@ -35,8 +35,8 @@ import com.example.challengeapp.ui.components.HumorCard
 import com.example.challengeapp.ui.components.Logo
 import com.example.challengeapp.ui.components.LogoWhite
 import com.example.challengeapp.ui.components.MotivacionalPhraseCard
+import com.example.challengeapp.ui.components.SamplePhrases
 import com.example.challengeapp.ui.theme.MainBlue
-import com.seuprojeto.motivacional.SamplePhrases
 
 @Composable
 fun DashboardScreen(
