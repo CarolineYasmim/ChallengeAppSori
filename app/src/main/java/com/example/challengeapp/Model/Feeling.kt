@@ -23,5 +23,5 @@ enum class Feeling(
     ESTRESSADO("Estressado", R.drawable.estressado, "Faça uma pausa e relaxe.", Color(0xFFFF9800)),
     RAIVA("Raiva", R.drawable.raiva, "Tente se acalmar com respirações profundas.", Color(0xFFF44336)),
 
-    NEUTRO("Neutro", R.drawable.neutro, "Faça seu check-in diário", Color.LightGray)
+    NEUTRO("Neutro", R.drawable.neutro, "Clique e faça seu check-in diário", Color.LightGray)
 }
