@@ -29,13 +29,13 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import com.example.challengeapp.Model.Feeling
+import com.example.challengeapp.Model.SamplePhrases
 import com.example.challengeapp.ui.components.CurrentDateText
 import com.example.challengeapp.ui.components.FeelingsCard
 import com.example.challengeapp.ui.components.HumorCard
 import com.example.challengeapp.ui.components.Logo
 import com.example.challengeapp.ui.components.LogoWhite
 import com.example.challengeapp.ui.components.MotivacionalPhraseCard
-import com.example.challengeapp.ui.components.SamplePhrases
 import com.example.challengeapp.ui.theme.MainBlue
 
 @Composable
