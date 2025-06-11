@@ -1,0 +1,64 @@
+type: collection.insomnia.rest/5.0
+name: APP collection
+meta:
+  id: wrk_9b616d68bc024c7bbce35614c8b552ab
+  created: 1748047562955
+  modified: 1748048932443
+collection:
+  - url: localhost/application/colaboradores/batch
+    name: CADASTRAR COLABORADOR
+    meta:
+      id: req_f0e24c6a1384456eb454c008a02cc4a5
+      created: 1748047563046
+      modified: 1748048844377
+      isPrivate: false
+      sortKey: -1748047563046
+    method: POST
+    body:
+      mimeType: application/json
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.1.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost/application/colaboradores
+    name: LISTAR COLABORADORES
+    meta:
+      id: req_491fdb70e7c74b7688969423fb8533c1
+      created: 1748048832805
+      modified: 1748049524806
+      isPrivate: false
+      sortKey: -1748048832805
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.1.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_e70d042c0a20f631e825e10edee505f1162ebffc
+    created: 1748047562965
+    modified: 1748047562965
+environments:
+  name: Base Environment
+  meta:
+    id: env_e70d042c0a20f631e825e10edee505f1162ebffc
+    created: 1748047562960
+    modified: 1748047562960
+    isPrivate: false
